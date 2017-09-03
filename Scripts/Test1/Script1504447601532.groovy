@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_PASSWORD'), 
 
 WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_password_confirmation'), '1234567890')
 
-WebUI.uploadFile(findTestObject('Test1/Page_ -/input_PATH_IMAGE'), 'C:\\Users\\joymully\\Desktop\\New folder\\DSCF2310.JPG')
+WebUI.uploadFile(findTestObject('Test1/Page_ -/input_PATH_IMAGE'), 'E:\\Google Drive MFU\\ขายของ\\Queenz Fashion\\2.JPG')
 
 WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'), 'ผลิตโชค')
 
