@@ -21,39 +21,39 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://vivblind.play2pay.me/volunteer/register')
 
-WebUI.setText(findTestObject('Test1/Page_ -/input_EMAIL'), 'auto.gammy1@gmail.com')
+WebUI.setText(findTestObject('Test1/Page_ -/input_EMAIL'), 'noochesn@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_PASSWORD'), '1234567890')
 
 WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_password_confirmation'), '1234567890')
 
-WebUI.uploadFile(findTestObject('Test1/Page_ -/input_PATH_IMAGE'), 'C:\\Users\\joymully\\Desktop\\New folder\\DSCF2310.JPG')
+WebUI.uploadFile(findTestObject('Test1/Page_ -/input_PATH_IMAGE'), 'C:\\Users\\joymully\\Desktop\\New folder\\Tester test.pdf')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'), 'ผลิตโชค')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'), 'นุช')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_LAST_NAME_TH'), 'อายะนบุตร')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_LAST_NAME_TH'), 'นุชเชส')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'), 'Palit')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'), 'nooch')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_LAST_NAME_EN'), 'Ayanabooth')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_LAST_NAME_EN'), 'nooches')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_CITIZEN_ID'), '5440212810500')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_CITIZEN_ID'), '2680775476651')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_BIRTH_DATE'), '24/05/1987')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_BIRTH_DATE'), '16/03/1999')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Test1/Page_ -/select_RELIGION'), 'พุทธ', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Test1/Page_ -/select_RELIGION'), 'อื่นๆ', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Test1/Page_ -/select_EDUCATIONAL'), 'ปริญญาตรี', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Test1/Page_ -/select_CAREER'), 'อื่นๆ', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Test1/Page_ -/select_CAREER'), 'รับราชการ', true)
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_NO'), '100/23')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_NO'), '50')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_MOO'), '3')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_MOO'), 'หมู่6')
 
-WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'), 'พาน')
+WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'), 'ฮอด')
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'), 1)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'), 6)
 
 WebUI.delay(1)
 
@@ -63,17 +63,17 @@ WebUI.delay(1)
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'), 1)
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'), '43566')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'), '2')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK'), 'กำลังศึกษา', false)
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_ALL'), 'ที่ทำงาน')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_ALL'), 'บ้าน')
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_PHONE'), '052121456')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_PHONE'), '2')
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_CELL_PHONE'), '0876767676767')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_CELL_PHONE'), 'asasasas@@@34343')
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_FAX'), '034342342423443243')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_FAX'), '1')
 
-WebUI.click(findTestObject('Object Repository/Test1/Page_ -/input_btn btn-primary'))
+WebUI.click(findTestObject('Test2/Page_ -/input_btn btn-primary'))
 
