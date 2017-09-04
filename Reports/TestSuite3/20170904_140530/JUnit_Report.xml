@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite3" time="66" tests="0" failures="2" errors="0">
+   <testsuite name="TestSuite3" tests="0" failures="2" errors="0" time="66" timestamp="2017-09-04 14:05:32" hostname="HP - JOY-Mul" id="Test Suites/TestSuite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\TestGit_clone2\\Reports\\TestSuite3\\20170904_140530"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\TestGit_clone2\\Reports\\TestSuite3\\20170904_140530\\execution0.log, C:\\Users\\HP\\git\\TestGit_clone2\\Reports\\TestSuite3\\20170904_140530\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - JOY-Mul"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.1.44.165"/>
+         <property name="sessionId" value="13a70bdf-116f-4630-848f-204a0ff67f8b"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test_Cellphone" classname="Test Cases/Test_Cellphone" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '098' of object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:32810/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: faf1108c-b30c-48c5-b060-480764ced79c
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'CELL_PHONE']) = count(//*[@name = 'CELL_PHONE'])][count(. | //*[@placeholder = 'มือถือ']) = count(//*[@placeholder = 'มือถือ'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]})"/>
+         <system-out><![CDATA[2017-09-04 14:05:32 - [TEST_CASE][FAILED] - Test Cases/Test_Cellphone: Test Cases/Test_Cellphone FAILED because (of) Unable to set text '098' of object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:32810/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: faf1108c-b30c-48c5-b060-480764ced79c
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'CELL_PHONE']) = count(//*[@name = 'CELL_PHONE'])][count(. | //*[@placeholder = 'มือถือ']) = count(//*[@placeholder = 'มือถือ'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]})
+
+2017-09-04 14:05:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-04 14:05:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-04 14:05:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 14:05:43 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 14:05:43 - [TEST_STEP][FAILED] - setText: Unable to set text '098' of object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:32810/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: faf1108c-b30c-48c5-b060-480764ced79c
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'CELL_PHONE']) = count(//*[@name = 'CELL_PHONE'])][count(. | //*[@placeholder = 'มือถือ']) = count(//*[@placeholder = 'มือถือ'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]})
+
+2017-09-04 14:06:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-09-04 14:06:28 - [MESSAGE][FAILED] - Unable to set text '098' of object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:32810/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: faf1108c-b30c-48c5-b060-480764ced79c
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'CELL_PHONE']) = count(//*[@name = 'CELL_PHONE'])][count(. | //*[@placeholder = 'มือถือ']) = count(//*[@placeholder = 'มือถือ'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]})]]></system-out>
+         <system-err><![CDATA[2017-09-04 14:05:32 - [TEST_CASE][FAILED] - Test Cases/Test_Cellphone: Test Cases/Test_Cellphone FAILED because (of) Unable to set text '098' of object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:32810/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: faf1108c-b30c-48c5-b060-480764ced79c
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'CELL_PHONE']) = count(//*[@name = 'CELL_PHONE'])][count(. | //*[@placeholder = 'มือถือ']) = count(//*[@placeholder = 'มือถือ'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Email1" classname="Test Cases/Test Email1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'aaa' of object 'Object Repository/TestEmail1/Page_ -/input_EMAIL' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43164/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13a70bdf-116f-4630-848f-204a0ff67f8b
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'EMAIL']) = count(//*[@name = 'EMAIL'])][count(. | //*[@placeholder = 'อีเมล']) = count(//*[@placeholder = 'อีเมล'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})"/>
+         <system-out><![CDATA[2017-09-04 14:06:28 - [TEST_CASE][FAILED] - Test Cases/Test Email1: Test Cases/Test Email1 FAILED because (of) Unable to set text 'aaa' of object 'Object Repository/TestEmail1/Page_ -/input_EMAIL' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43164/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13a70bdf-116f-4630-848f-204a0ff67f8b
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'EMAIL']) = count(//*[@name = 'EMAIL'])][count(. | //*[@placeholder = 'อีเมล']) = count(//*[@placeholder = 'อีเมล'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})
+
+2017-09-04 14:06:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-04 14:06:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-09-04 14:06:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-04 14:06:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 14:06:34 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 14:06:34 - [TEST_STEP][FAILED] - setText: Unable to set text 'aaa' of object 'Object Repository/TestEmail1/Page_ -/input_EMAIL' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43164/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13a70bdf-116f-4630-848f-204a0ff67f8b
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'EMAIL']) = count(//*[@name = 'EMAIL'])][count(. | //*[@placeholder = 'อีเมล']) = count(//*[@placeholder = 'อีเมล'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})
+
+2017-09-04 14:06:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-09-04 14:06:37 - [MESSAGE][FAILED] - Unable to set text 'aaa' of object 'Object Repository/TestEmail1/Page_ -/input_EMAIL' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43164/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13a70bdf-116f-4630-848f-204a0ff67f8b
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'EMAIL']) = count(//*[@name = 'EMAIL'])][count(. | //*[@placeholder = 'อีเมล']) = count(//*[@placeholder = 'อีเมล'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})]]></system-out>
+         <system-err><![CDATA[2017-09-04 14:06:28 - [TEST_CASE][FAILED] - Test Cases/Test Email1: Test Cases/Test Email1 FAILED because (of) Unable to set text 'aaa' of object 'Object Repository/TestEmail1/Page_ -/input_EMAIL' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43164/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13a70bdf-116f-4630-848f-204a0ff67f8b
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'EMAIL']) = count(//*[@name = 'EMAIL'])][count(. | //*[@placeholder = 'อีเมล']) = count(//*[@placeholder = 'อีเมล'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-04 14:05:32 - [TEST_SUITE][FAILED] - TestSuite3: Test Cases/Test_Cellphone FAILED because (of) Unable to set text '098' of object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:32810/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: faf1108c-b30c-48c5-b060-480764ced79c
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'CELL_PHONE']) = count(//*[@name = 'CELL_PHONE'])][count(. | //*[@placeholder = 'มือถือ']) = count(//*[@placeholder = 'มือถือ'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]})]]></system-out>
+      <system-err><![CDATA[2017-09-04 14:05:32 - [TEST_SUITE][FAILED] - TestSuite3: Test Cases/Test_Cellphone FAILED because (of) Unable to set text '098' of object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'JOY-Mul', ip: '10.1.44.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, proxy={proxyType=direct}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:32810/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: faf1108c-b30c-48c5-b060-480764ced79c
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'CELL_PHONE']) = count(//*[@name = 'CELL_PHONE'])][count(. | //*[@placeholder = 'มือถือ']) = count(//*[@placeholder = 'มือถือ'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]})]]></system-err>
+   </testsuite>
+</testsuites>

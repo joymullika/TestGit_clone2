@@ -4,7 +4,7 @@
    <name>TestSuite3</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-09-04T13:38:38</lastRun>
+   <lastRun>2017-09-04T14:07:48</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,9 +18,9 @@
       <testCaseId>Test Cases/Test_Cellphone</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>03583f41-77de-420b-a126-f80c6044cd17</guid>
+      <guid>487742ff-ac3a-4543-adae-402697c77968</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test_Email</testCaseId>
+      <testCaseId>Test Cases/Test Email1</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

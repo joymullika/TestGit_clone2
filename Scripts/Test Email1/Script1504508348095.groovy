@@ -24,28 +24,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://vivblind.play2pay.me/volunteer/register')
 
+WebUI.setText(findTestObject('TestEmail1/Page_ -/input_EMAIL'), 'aaa')
 
-
-WebUI.setText(findTestObject('Test Email/Page_ - (1)/input_EMAIL'), 'ๅ/ดเกเ@hh.com')
-
-WebUI.click(findTestObject('Test Email/Page_ -/input_btn btn-primary'))
+WebUI.click(findTestObject('TestEmail1/Page_ -/input_btn btn-primary'))
 
 //verify Email
 WebUI.verifyTextPresent('กรุณากรอก รหัสสมาชิก ในรูปแบบ Email', false)
 
-WebUI.setText(findTestObject('Test Email/Page_ - (1)/input_EMAIL'), 'ccc@ff.com')
+//WebUI.setText(findTestObject('TestEmail1/Page_ -/input_EMAIL'), 'aa')
 
-WebUI.click(findTestObject('Test Email/Page_ -/input_btn btn-primary'))
+WebUI.setText(findTestObject('TestEmail1/Page_ -/input_EMAIL'), '1212121212')
+
+WebUI.click(findTestObject('TestEmail1/Page_ -/input_btn btn-primary'))
+//verify Email
+WebUI.verifyTextPresent('กรุณากรอก รหัสสมาชิก ในรูปแบบ Email', false)
+
+WebUI.setText(findTestObject('TestEmail1/Page_ -/input_EMAIL'), 'ds@ff.com')
+
+WebUI.click(findTestObject('TestEmail1/Page_ -/input_btn btn-primary'))
 
 //verify Email
 WebUI.verifyTextNotPresent('กรุณากรอก รหัสสมาชิก ในรูปแบบ Email', false)
 
-WebUI.setText(findTestObject('Test Email/Page_ - (1)/input_EMAIL'), '1212@gg.com')
+WebUI.setText(findTestObject('TestEmail1/Page_ -/input_EMAIL'), '')
 
-WebUI.click(findTestObject('Test Email/Page_ -/input_btn btn-primary'))
+WebUI.click(findTestObject('TestEmail1/Page_ -/input_btn btn-primary'))
 
 //verify Email
-WebUI.verifyTextNotPresent('กรุณากรอก รหัสสมาชิก ในรูปแบบ Email', false)
+WebUI.verifyTextPresent('กรุณากรอกรหัสสมาชิก', false)
 
 WebUI.closeBrowser()
 
