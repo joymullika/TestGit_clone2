@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite2" time="47" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite2" tests="3" failures="0" errors="0" time="47" timestamp="2017-09-04 11:05:26" hostname="HP - JOY-Mul" id="Test Suites/Test Suite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\TestGit_clone2\\Reports\\Test Suite2\\20170904_110524"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\TestGit_clone2\\Reports\\Test Suite2\\20170904_110524\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - JOY-Mul"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="10.1.44.165"/>
+         <property name="sessionId" value="1f5d2d8667190d38f05c4cb816a90f3b"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test by Joy" classname="Test Cases/Test by Joy" status="PASSED">
+         <system-out><![CDATA[2017-09-04 11:05:26 - [TEST_CASE][PASSED] - Test Cases/Test by Joy: Test Cases/Test by Joy
+
+2017-09-04 11:05:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2017-09-04 11:05:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2017-09-04 11:05:34 - [TEST_STEP][PASSED] - setText: Text 'noochesn@gmail.com' is set on object 'Object Repository/Test1/Page_ -/input_EMAIL'
+
+2017-09-04 11:05:34 - [MESSAGE][PASSED] - Text 'noochesn@gmail.com' is set on object 'Object Repository/Test1/Page_ -/input_EMAIL'
+
+2017-09-04 11:05:34 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_PASSWORD'
+
+2017-09-04 11:05:34 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_PASSWORD'
+
+2017-09-04 11:05:34 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_password_confirmation'
+
+2017-09-04 11:05:34 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_password_confirmation'
+
+2017-09-04 11:05:34 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\joymully\Desktop\New folder\Tester test.pdf' sent to object: 'Object Repository/Test1/Page_ -/input_PATH_IMAGE'
+
+2017-09-04 11:05:35 - [MESSAGE][PASSED] - File 'C:\Users\joymully\Desktop\New folder\Tester test.pdf' sent to object: 'Object Repository/Test1/Page_ -/input_PATH_IMAGE'
+
+2017-09-04 11:05:35 - [TEST_STEP][PASSED] - setText: Text 'นุช' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'
+
+2017-09-04 11:05:35 - [MESSAGE][PASSED] - Text 'นุช' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'
+
+2017-09-04 11:05:35 - [TEST_STEP][PASSED] - setText: Text 'นุชเชส' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_TH'
+
+2017-09-04 11:05:35 - [MESSAGE][PASSED] - Text 'นุชเชส' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_TH'
+
+2017-09-04 11:05:35 - [TEST_STEP][PASSED] - setText: Text 'nooch' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'
+
+2017-09-04 11:05:35 - [MESSAGE][PASSED] - Text 'nooch' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'
+
+2017-09-04 11:05:35 - [TEST_STEP][PASSED] - setText: Text 'nooches' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_EN'
+
+2017-09-04 11:05:35 - [MESSAGE][PASSED] - Text 'nooches' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_EN'
+
+2017-09-04 11:05:35 - [TEST_STEP][PASSED] - setText: Text '2680775476651' is set on object 'Object Repository/Test1/Page_ -/input_CITIZEN_ID'
+
+2017-09-04 11:05:35 - [MESSAGE][PASSED] - Text '2680775476651' is set on object 'Object Repository/Test1/Page_ -/input_CITIZEN_ID'
+
+2017-09-04 11:05:35 - [TEST_STEP][PASSED] - setText: Text '16/03/1999' is set on object 'Object Repository/Test1/Page_ -/input_BIRTH_DATE'
+
+2017-09-04 11:05:35 - [MESSAGE][PASSED] - Text '16/03/1999' is set on object 'Object Repository/Test1/Page_ -/input_BIRTH_DATE'
+
+2017-09-04 11:05:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Test1/Page_ -/select_RELIGION'  using regular expression
+
+2017-09-04 11:05:36 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Test1/Page_ -/select_RELIGION'  using regular expression
+
+2017-09-04 11:05:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Test1/Page_ -/select_EDUCATIONAL'  using regular expression
+
+2017-09-04 11:05:36 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Test1/Page_ -/select_EDUCATIONAL'  using regular expression
+
+2017-09-04 11:05:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'รับราชการ' are selected in object 'Object Repository/Test1/Page_ -/select_CAREER'  using regular expression
+
+2017-09-04 11:05:36 - [MESSAGE][PASSED] - All options with value 'รับราชการ' are selected in object 'Object Repository/Test1/Page_ -/select_CAREER'  using regular expression
+
+2017-09-04 11:05:36 - [TEST_STEP][PASSED] - setText: Text '50' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_NO'
+
+2017-09-04 11:05:36 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_NO'
+
+2017-09-04 11:05:36 - [TEST_STEP][PASSED] - setText: Text 'หมู่6' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_MOO'
+
+2017-09-04 11:05:36 - [MESSAGE][PASSED] - Text 'หมู่6' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_MOO'
+
+2017-09-04 11:05:36 - [TEST_STEP][PASSED] - setText: Text 'ฮอด' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'
+
+2017-09-04 11:05:36 - [MESSAGE][PASSED] - Text 'ฮอด' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'
+
+2017-09-04 11:05:36 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [6] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'
+
+2017-09-04 11:05:37 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'
+
+2017-09-04 11:05:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-04 11:05:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-04 11:05:38 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_DISTRICT'
+
+2017-09-04 11:05:38 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_DISTRICT'
+
+2017-09-04 11:05:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-04 11:05:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-04 11:05:39 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'
+
+2017-09-04 11:05:39 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'
+
+2017-09-04 11:05:39 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'
+
+2017-09-04 11:05:39 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'
+
+2017-09-04 11:05:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK' 
+
+2017-09-04 11:05:39 - [MESSAGE][PASSED] - All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK' 
+
+2017-09-04 11:05:39 - [TEST_STEP][PASSED] - setText: Text 'บ้าน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ALL'
+
+2017-09-04 11:05:39 - [MESSAGE][PASSED] - Text 'บ้าน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ALL'
+
+2017-09-04 11:05:39 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Test1/Page_ -/input_PHONE'
+
+2017-09-04 11:05:39 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Test1/Page_ -/input_PHONE'
+
+2017-09-04 11:05:39 - [TEST_STEP][PASSED] - setText: Text 'asasasas@@@34343' is set on object 'Object Repository/Test1/Page_ -/input_CELL_PHONE'
+
+2017-09-04 11:05:40 - [MESSAGE][PASSED] - Text 'asasasas@@@34343' is set on object 'Object Repository/Test1/Page_ -/input_CELL_PHONE'
+
+2017-09-04 11:05:40 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Test1/Page_ -/input_FAX'
+
+2017-09-04 11:05:40 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Test1/Page_ -/input_FAX'
+
+2017-09-04 11:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test2/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 11:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2/Page_ -/input_btn btn-primary' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2017-09-04 11:05:40 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2017-09-04 11:05:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2017-09-04 11:05:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-09-04 11:05:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2017-09-04 11:05:51 - [TEST_STEP][PASSED] - setText: Text 'auto.gammy1@gmail.com' is set on object 'Object Repository/Test1/Page_ -/input_EMAIL'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - Text 'auto.gammy1@gmail.com' is set on object 'Object Repository/Test1/Page_ -/input_EMAIL'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_PASSWORD'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_PASSWORD'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_password_confirmation'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_password_confirmation'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\joymully\Desktop\New folder\DSCF2310.JPG' sent to object: 'Object Repository/Test1/Page_ -/input_PATH_IMAGE'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - File 'C:\Users\joymully\Desktop\New folder\DSCF2310.JPG' sent to object: 'Object Repository/Test1/Page_ -/input_PATH_IMAGE'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - setText: Text 'ผลิตโชค' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - Text 'ผลิตโชค' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - setText: Text 'อายะนบุตร' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_TH'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - Text 'อายะนบุตร' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_TH'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - setText: Text 'Palit' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - Text 'Palit' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - setText: Text 'Ayanabooth' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_EN'
+
+2017-09-04 11:05:52 - [MESSAGE][PASSED] - Text 'Ayanabooth' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_EN'
+
+2017-09-04 11:05:52 - [TEST_STEP][PASSED] - setText: Text '5440212810500' is set on object 'Object Repository/Test1/Page_ -/input_CITIZEN_ID'
+
+2017-09-04 11:05:53 - [MESSAGE][PASSED] - Text '5440212810500' is set on object 'Object Repository/Test1/Page_ -/input_CITIZEN_ID'
+
+2017-09-04 11:05:53 - [TEST_STEP][PASSED] - setText: Text '24/05/1987' is set on object 'Object Repository/Test1/Page_ -/input_BIRTH_DATE'
+
+2017-09-04 11:05:53 - [MESSAGE][PASSED] - Text '24/05/1987' is set on object 'Object Repository/Test1/Page_ -/input_BIRTH_DATE'
+
+2017-09-04 11:05:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'พุทธ' are selected in object 'Object Repository/Test1/Page_ -/select_RELIGION'  using regular expression
+
+2017-09-04 11:05:53 - [MESSAGE][PASSED] - All options with value 'พุทธ' are selected in object 'Object Repository/Test1/Page_ -/select_RELIGION'  using regular expression
+
+2017-09-04 11:05:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Test1/Page_ -/select_EDUCATIONAL'  using regular expression
+
+2017-09-04 11:05:53 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Test1/Page_ -/select_EDUCATIONAL'  using regular expression
+
+2017-09-04 11:05:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Test1/Page_ -/select_CAREER'  using regular expression
+
+2017-09-04 11:05:53 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Test1/Page_ -/select_CAREER'  using regular expression
+
+2017-09-04 11:05:53 - [TEST_STEP][PASSED] - setText: Text '100/23' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_NO'
+
+2017-09-04 11:05:53 - [MESSAGE][PASSED] - Text '100/23' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_NO'
+
+2017-09-04 11:05:53 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_MOO'
+
+2017-09-04 11:05:54 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_MOO'
+
+2017-09-04 11:05:54 - [TEST_STEP][PASSED] - setText: Text 'พาน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'
+
+2017-09-04 11:05:54 - [MESSAGE][PASSED] - Text 'พาน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'
+
+2017-09-04 11:05:54 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'
+
+2017-09-04 11:05:54 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'
+
+2017-09-04 11:05:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-04 11:05:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-04 11:05:55 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_DISTRICT'
+
+2017-09-04 11:05:55 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_DISTRICT'
+
+2017-09-04 11:05:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-04 11:05:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-04 11:05:56 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'
+
+2017-09-04 11:05:56 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'
+
+2017-09-04 11:05:56 - [TEST_STEP][PASSED] - setText: Text '43566' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'
+
+2017-09-04 11:05:56 - [MESSAGE][PASSED] - Text '43566' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'
+
+2017-09-04 11:05:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK' 
+
+2017-09-04 11:05:56 - [MESSAGE][PASSED] - All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK' 
+
+2017-09-04 11:05:56 - [TEST_STEP][PASSED] - setText: Text 'ที่ทำงาน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ALL'
+
+2017-09-04 11:05:57 - [MESSAGE][PASSED] - Text 'ที่ทำงาน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ALL'
+
+2017-09-04 11:05:57 - [TEST_STEP][PASSED] - setText: Text '052121456' is set on object 'Object Repository/Test1/Page_ -/input_PHONE'
+
+2017-09-04 11:05:57 - [MESSAGE][PASSED] - Text '052121456' is set on object 'Object Repository/Test1/Page_ -/input_PHONE'
+
+2017-09-04 11:05:57 - [TEST_STEP][PASSED] - setText: Text '0876767676767' is set on object 'Object Repository/Test1/Page_ -/input_CELL_PHONE'
+
+2017-09-04 11:05:57 - [MESSAGE][PASSED] - Text '0876767676767' is set on object 'Object Repository/Test1/Page_ -/input_CELL_PHONE'
+
+2017-09-04 11:05:57 - [TEST_STEP][PASSED] - setText: Text '034342342423443243' is set on object 'Object Repository/Test1/Page_ -/input_FAX'
+
+2017-09-04 11:05:57 - [MESSAGE][PASSED] - Text '034342342423443243' is set on object 'Object Repository/Test1/Page_ -/input_FAX'
+
+2017-09-04 11:05:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test1/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 11:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Test1/Page_ -/input_btn btn-primary' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test2" classname="Test Cases/Test2" status="PASSED">
+         <system-out><![CDATA[2017-09-04 11:05:58 - [TEST_CASE][PASSED] - Test Cases/Test2: Test Cases/Test2
+
+2017-09-04 11:05:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2017-09-04 11:05:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-09-04 11:06:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2017-09-04 11:06:06 - [TEST_STEP][PASSED] - setText: Text 'aaaa@gdfs.co.th' is set on object 'Object Repository/Test1/Page_ -/input_EMAIL'
+
+2017-09-04 11:06:06 - [MESSAGE][PASSED] - Text 'aaaa@gdfs.co.th' is set on object 'Object Repository/Test1/Page_ -/input_EMAIL'
+
+2017-09-04 11:06:06 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_PASSWORD'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_PASSWORD'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_password_confirmation'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Test1/Page_ -/input_password_confirmation'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\HP\Pictures\Screenshots\2.png' sent to object: 'Object Repository/Test1/Page_ -/input_PATH_IMAGE'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - File 'C:\Users\HP\Pictures\Screenshots\2.png' sent to object: 'Object Repository/Test1/Page_ -/input_PATH_IMAGE'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - setText: Text 'แตงโม' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - Text 'แตงโม' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - setText: Text 'สดชื่น' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_TH'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - Text 'สดชื่น' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_TH'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - setText: Text 'Tangmo' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - Text 'Tangmo' is set on object 'Object Repository/Test1/Page_ -/input_FIRST_NAME_EN'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - setText: Text 'Sodchuen' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_EN'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - Text 'Sodchuen' is set on object 'Object Repository/Test1/Page_ -/input_LAST_NAME_EN'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - setText: Text '3813157061752' is set on object 'Object Repository/Test1/Page_ -/input_CITIZEN_ID'
+
+2017-09-04 11:06:07 - [MESSAGE][PASSED] - Text '3813157061752' is set on object 'Object Repository/Test1/Page_ -/input_CITIZEN_ID'
+
+2017-09-04 11:06:07 - [TEST_STEP][PASSED] - setText: Text '01/11/2002' is set on object 'Object Repository/Test1/Page_ -/input_BIRTH_DATE'
+
+2017-09-04 11:06:08 - [MESSAGE][PASSED] - Text '01/11/2002' is set on object 'Object Repository/Test1/Page_ -/input_BIRTH_DATE'
+
+2017-09-04 11:06:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Test1/Page_ -/select_RELIGION'  using regular expression
+
+2017-09-04 11:06:08 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Test1/Page_ -/select_RELIGION'  using regular expression
+
+2017-09-04 11:06:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Test1/Page_ -/select_EDUCATIONAL'  using regular expression
+
+2017-09-04 11:06:08 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Test1/Page_ -/select_EDUCATIONAL'  using regular expression
+
+2017-09-04 11:06:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'รับราชการ' are selected in object 'Object Repository/Test1/Page_ -/select_CAREER'  using regular expression
+
+2017-09-04 11:06:08 - [MESSAGE][PASSED] - All options with value 'รับราชการ' are selected in object 'Object Repository/Test1/Page_ -/select_CAREER'  using regular expression
+
+2017-09-04 11:06:08 - [TEST_STEP][PASSED] - setText: Text '50' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_NO'
+
+2017-09-04 11:06:08 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_NO'
+
+2017-09-04 11:06:08 - [TEST_STEP][PASSED] - setText: Text 'หมู่6' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_MOO'
+
+2017-09-04 11:06:08 - [MESSAGE][PASSED] - Text 'หมู่6' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_MOO'
+
+2017-09-04 11:06:08 - [TEST_STEP][PASSED] - setText: Text 'ฮอด' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'
+
+2017-09-04 11:06:09 - [MESSAGE][PASSED] - Text 'ฮอด' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ROAD'
+
+2017-09-04 11:06:09 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [6] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'
+
+2017-09-04 11:06:09 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_PROVINCE'
+
+2017-09-04 11:06:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-04 11:06:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-04 11:06:10 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_DISTRICT'
+
+2017-09-04 11:06:10 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_DISTRICT'
+
+2017-09-04 11:06:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-04 11:06:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-04 11:06:11 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'
+
+2017-09-04 11:06:11 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'
+
+2017-09-04 11:06:11 - [TEST_STEP][PASSED] - setText: Text '30122' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'
+
+2017-09-04 11:06:11 - [MESSAGE][PASSED] - Text '30122' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'
+
+2017-09-04 11:06:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK' 
+
+2017-09-04 11:06:11 - [MESSAGE][PASSED] - All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK' 
+
+2017-09-04 11:06:11 - [TEST_STEP][PASSED] - setText: Text 'บ้าน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ALL'
+
+2017-09-04 11:06:12 - [MESSAGE][PASSED] - Text 'บ้าน' is set on object 'Object Repository/Test1/Page_ -/input_ADDRESS_ALL'
+
+2017-09-04 11:06:12 - [TEST_STEP][PASSED] - setText: Text '053215266' is set on object 'Object Repository/Test1/Page_ -/input_PHONE'
+
+2017-09-04 11:06:12 - [MESSAGE][PASSED] - Text '053215266' is set on object 'Object Repository/Test1/Page_ -/input_PHONE'
+
+2017-09-04 11:06:12 - [TEST_STEP][PASSED] - setText: Text '11' is set on object 'Object Repository/Test1/Page_ -/input_CELL_PHONE'
+
+2017-09-04 11:06:12 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Test1/Page_ -/input_CELL_PHONE'
+
+2017-09-04 11:06:12 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Test1/Page_ -/input_FAX'
+
+2017-09-04 11:06:12 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Test1/Page_ -/input_FAX'
+
+2017-09-04 11:06:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test by Joy/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 11:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Test by Joy/Page_ -/input_btn btn-primary' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-04 11:05:26 - [TEST_SUITE][PASSED] - Test Suite2: Test Cases/Test2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
