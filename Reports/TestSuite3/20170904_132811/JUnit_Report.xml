@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite3" time="34" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite3" tests="2" failures="0" errors="0" time="34" timestamp="2017-09-04 13:28:12" hostname="HP - JOY-Mul" id="Test Suites/TestSuite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\TestGit_clone2\\Reports\\TestSuite3\\20170904_132811"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\TestGit_clone2\\Reports\\TestSuite3\\20170904_132811\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - JOY-Mul"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 54.0"/>
+         <property name="hostAddress" value="10.1.44.165"/>
+         <property name="sessionId" value="3d442e41-00d7-478c-b99f-5e1c68a6dcab"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test_Cellphone" classname="Test Cases/Test_Cellphone" status="PASSED">
+         <system-out><![CDATA[2017-09-04 13:28:13 - [TEST_CASE][PASSED] - Test Cases/Test_Cellphone: Test Cases/Test_Cellphone
+
+2017-09-04 13:28:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-04 13:28:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-04 13:28:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 13:28:24 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 13:28:24 - [TEST_STEP][PASSED] - setText: Text '098' is set on object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE'
+
+2017-09-04 13:28:24 - [MESSAGE][PASSED] - Text '098' is set on object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE'
+
+2017-09-04 13:28:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test_Cellphone/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_Cellphone/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอกเบอร์มือถือ 10 หลัก' is present on page 
+
+2017-09-04 13:28:26 - [MESSAGE][PASSED] - Text 'กรุณากรอกเบอร์มือถือ 10 หลัก' is present on page 
+
+2017-09-04 13:28:26 - [TEST_STEP][PASSED] - setText: Text '0789877789' is set on object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE'
+
+2017-09-04 13:28:26 - [MESSAGE][PASSED] - Text '0789877789' is set on object 'Object Repository/Test_Cellphone/Page_ -/input_CELL_PHONE'
+
+2017-09-04 13:28:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test_Cellphone/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_Cellphone/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:27 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'กรุณากรอกเบอร์มือถือ 10 หลัก' is not present on page
+
+2017-09-04 13:28:28 - [MESSAGE][PASSED] - Text 'กรุณากรอกเบอร์มือถือ 10 หลัก' is not present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_Email" classname="Test Cases/Test_Email" status="PASSED">
+         <system-out><![CDATA[2017-09-04 13:28:28 - [TEST_CASE][PASSED] - Test Cases/Test_Email: Test Cases/Test_Email
+
+2017-09-04 13:28:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-04 13:28:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-09-04 13:28:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-04 13:28:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 13:28:38 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2017-09-04 13:28:38 - [TEST_STEP][PASSED] - setText: Text 'aa' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:39 - [MESSAGE][PASSED] - Text 'aa' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:39 - [TEST_STEP][PASSED] - setText: Text 'aaa' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:39 - [MESSAGE][PASSED] - Text 'aaa' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Email/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Email/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is present on page 
+
+2017-09-04 13:28:41 - [MESSAGE][PASSED] - Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is present on page 
+
+2017-09-04 13:28:41 - [TEST_STEP][PASSED] - setText: Text 'ๅ/ดเกเ@hh.com' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:42 - [MESSAGE][PASSED] - Text 'ๅ/ดเกเ@hh.com' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Email/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Email/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:42 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is present on page 
+
+2017-09-04 13:28:43 - [MESSAGE][PASSED] - Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is present on page 
+
+2017-09-04 13:28:43 - [TEST_STEP][PASSED] - setText: Text 'ccc@ff.com' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:43 - [MESSAGE][PASSED] - Text 'ccc@ff.com' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Email/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Email/Page_ -/input_btn btn-primary' is clicked on
+
+2017-09-04 13:28:44 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is not present on page
+
+2017-09-04 13:28:45 - [MESSAGE][PASSED] - Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is not present on page
+
+2017-09-04 13:28:45 - [TEST_STEP][PASSED] - setText: Text '1212@gg.com' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:45 - [MESSAGE][PASSED] - Text '1212@gg.com' is set on object 'Object Repository/Test Email/Page_ - (1)/input_EMAIL'
+
+2017-09-04 13:28:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Email/Page_ - (1)/input_EMAIL' is clicked on
+
+2017-09-04 13:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Email/Page_ - (1)/input_EMAIL' is clicked on
+
+2017-09-04 13:28:45 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is not present on page
+
+2017-09-04 13:28:46 - [MESSAGE][PASSED] - Text 'กรุณากรอก รหัสสมาชิก ในรูปแบบ Email' is not present on page
+
+2017-09-04 13:28:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-09-04 13:28:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-04 13:28:12 - [TEST_SUITE][PASSED] - TestSuite3: Test Cases/Test_Email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

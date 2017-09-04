@@ -71,7 +71,7 @@ WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/inp
 
 WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_PHONE'), '053215266')
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_CELL_PHONE'), '11')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_CELL_PHONE'), '0547847841')
 
 WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_FAX'), '1')
 
