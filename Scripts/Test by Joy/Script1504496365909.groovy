@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_PASSWORD'), 
 
 WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_password_confirmation'), '1234567890')
 
-WebUI.uploadFile(findTestObject('Test1/Page_ -/input_PATH_IMAGE'), 'C:\\Users\\joymully\\Desktop\\New folder\\Tester test.pdf')
+WebUI.uploadFile(findTestObject('Test1/Page_ -/input_PATH_IMAGE'), 'C:\\Users\\HP\\Pictures\\Screenshots\\2.png')
 
 WebUI.setText(findTestObject('Object Repository/Test1/Page_ -/input_FIRST_NAME_TH'), 'นุช')
 
@@ -63,7 +63,7 @@ WebUI.delay(1)
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Test1/Page_ -/select_ADDRESS_SUBDISTRICT'), 1)
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'), '2')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_ADDRESS_POSTCODE'), '20000')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Test1/Page_ -/select_STATUS_EDU_WORK'), 'กำลังศึกษา', false)
 
@@ -71,9 +71,20 @@ WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/inp
 
 WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_PHONE'), '2')
 
-WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_CELL_PHONE'), 'asasasas@@@34343')
+WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_CELL_PHONE'), '9812027456')
 
+//'Click on \'Book Appointment\' button'
+//WebUI.click(findTestObject('Object Repository/Test by Joy/Page_ -/input_CELL_PHONE'))
+//'Click on \'Book Appointment\' button'
+//WebUI.click(findTestObject('Object Repository/Test by Joy/Page_ -/input_CELL_PHONE'))
 WebUiBuiltInKeywords.setText(findTestObject('Object Repository/Test1/Page_ -/input_FAX'), '1')
 
 WebUI.click(findTestObject('Test2/Page_ -/input_btn btn-primary'))
+
+WebUI.delay(1)
+
+//verify Cell_Phone
+WebUI.verifyTextNotPresent('กรุณากรอกเบอร์มือถือ 10 หลัก', false)
+
+WebUI.verifyTextNotPresent('กรุณากรอกรหัสไปรษณีย์ 5 หลัก', false)
 
